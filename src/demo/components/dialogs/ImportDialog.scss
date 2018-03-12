@@ -1,0 +1,13 @@
+.dialog-import {
+  &-textarea {
+    min-height: 200px;
+
+    &.form-control {
+      height: 300px;
+    }
+  }
+
+  &-message {
+    margin: 15px 0 0 0;
+  }
+}

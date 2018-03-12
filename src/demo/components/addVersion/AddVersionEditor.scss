@@ -1,0 +1,16 @@
+.add-version-editor {
+  flex: 1;
+  display: flex;
+
+  &-id {
+    width: 200px;
+  }
+
+  &-parent-dropdown {
+    margin: 0 0 0 1em;
+  }
+
+  &-button {
+    margin: 0 0 0 1em;
+  }
+}

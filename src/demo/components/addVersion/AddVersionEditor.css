@@ -1,0 +1,11 @@
+.add-version-editor {
+  flex: 1;
+  display: flex; }
+  .add-version-editor-id {
+    width: 200px; }
+  .add-version-editor-parent-dropdown {
+    margin: 0 0 0 1em; }
+  .add-version-editor-button {
+    margin: 0 0 0 1em; }
+
+/*# sourceMappingURL=AddVersionEditor.css.map */

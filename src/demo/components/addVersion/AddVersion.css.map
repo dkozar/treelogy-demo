@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,YAAa;EACX,KAAK,EAAE,IAAI;EACX,OAAO,EAAE,IAAI",
+"sources": ["AddVersion.scss"],
+"names": [],
+"file": "AddVersion.css"
+}

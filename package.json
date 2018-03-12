@@ -1,0 +1,39 @@
+{
+  "name": "treelogy-demo",
+  "version": "1.0.0",
+  "description": "Treelogy demos",
+  "author": "Danko Kozar (http://github.com/dkozar)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dkozar/treelogy-demo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dkozar/treelogy-demo/issues"
+  },
+  "homepage": "https://dkozar.github.io/treelogy-demo",
+  "dependencies": {
+    "classnames": "^2.2.5",
+    "jsurl": "^0.1.5",
+    "keymirror": "^0.1.1",
+    "lodash": "^4.17.5",
+    "react": "^16.2.0",
+    "react-bootstrap": "^0.32.1",
+    "react-dom": "^16.2.0",
+    "react-scripts": "1.1.1",
+    "treelogy": "^1.0.4"
+  },
+  "devDependencies": {
+    "eslint-plugin-prettier": "^2.6.0",
+    "gh-pages": "^1.1.0",
+    "prettier": "^1.11.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  }
+}

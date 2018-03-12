@@ -1,0 +1,50 @@
+.version {
+  margin-bottom: 1em;
+  padding: 2em;
+  background-color: #ECF0F1;
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  &-header {
+    font-size: 30px;
+    line-height: 30px;
+    margin: 0 0 20px 0;
+    display: flex;
+    align-items: center;
+
+    &-title {
+      margin: 0 20px 0 0;
+    }
+
+    &-spacer {
+      flex: 1;
+    }
+
+    &-pill {
+      line-height: 30px;
+      vertical-align: middle;
+      font-size: 14px;
+      padding: 0 10px;
+      margin: 0 1em 0 0;
+      color: white;
+
+      &-inheritance {
+        background-color: #34495e;
+      }
+
+      &-overrides {
+        background-color: #f03434;
+      }
+
+      &-local {
+        background-color: #019875;
+      }
+    }
+
+    &-remove {
+      float: right;
+      align-self: flex-start;
+    }
+  }
+}

@@ -1,0 +1,19 @@
+.version-add-node {
+  &-editor {
+    flex: 1;
+    display: flex;
+
+    &-id {
+      width: 100px;
+    }
+
+    &-data {
+      margin: 0 0 0 1em;
+      flex: 1;
+    }
+
+    &-button {
+      margin: 0 0 0 1em;
+    }
+  }
+}

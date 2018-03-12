@@ -1,0 +1,38 @@
+.version-node {
+  margin-bottom: 1em;
+  flex: 1;
+  display: flex;
+  height: 30px; }
+  .version-node-id {
+    color: white;
+    background-color: #019875;
+    vertical-align: middle;
+    line-height: 30px;
+    padding: 0 10px; }
+  .version-node .btn.btn-sm.btn-success {
+    background-color: #019875; }
+  .version-node-inherited .version-node-id {
+    background-color: #34495e; }
+  .version-node-inherited .btn.btn-sm.btn-primary {
+    background-color: #019875; }
+  .version-node-overridden .version-node-id {
+    background-color: #f03434; }
+  .version-node-overridden .btn.btn-sm.btn-danger {
+    background-color: #f03434; }
+  .version-node-data {
+    flex: 1;
+    line-height: 30px; }
+  .version-node-button {
+    margin: 0 0 0 1em; }
+  .version-node-editor {
+    flex: 1;
+    display: flex;
+    min-width: 100px;
+    margin: 0 0 0 1em; }
+    .version-node-editor-input {
+      flex: 1;
+      height: 30px; }
+  .version-node-remove-button-hidden {
+    visibility: hidden; }
+
+/*# sourceMappingURL=Node.css.map */

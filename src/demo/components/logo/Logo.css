@@ -1,0 +1,29 @@
+.flex-parent-centered {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0; }
+
+.transparent-for-clicks {
+  pointer-events: none; }
+
+.logo {
+  position: relative;
+  z-index: -1;
+  display: inline;
+  color: #2c3e50;
+  pointer-events: none;
+  text-align: center; }
+  .logo-title {
+    font-size: 100px;
+    line-height: 100px; }
+  .logo-subtitle {
+    font-size: 50px;
+    line-height: 50px;
+    margin-top: 20px; }
+
+/*# sourceMappingURL=Logo.css.map */

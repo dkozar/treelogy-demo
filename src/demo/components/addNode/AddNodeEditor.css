@@ -1,0 +1,12 @@
+.version-add-node-editor {
+  flex: 1;
+  display: flex; }
+  .version-add-node-editor-id {
+    width: 100px; }
+  .version-add-node-editor-data {
+    margin: 0 0 0 1em;
+    flex: 1; }
+  .version-add-node-editor-button {
+    margin: 0 0 0 1em; }
+
+/*# sourceMappingURL=AddNodeEditor.css.map */
