@@ -1,16 +1,16 @@
 import JSURL from "jsurl";
-import demo1 from "../demos/demo1";
+import defaultDemo from '../demos/defaultDemo'
 
 const getInitialData = () => {
   const urlData = window.location.search.split("?data=")[1];
 
   if (urlData) {
-    // if data passed via the URL, use it
+    // if data passed via URL, use it
     return JSURL.parse(urlData);
   }
 
   // otherwise, use the hardcoded data
-  return demo1;
+  return defaultDemo;
 };
 
 export default getInitialData;

@@ -2,11 +2,11 @@
 
 ## :zap: About Treelogy Demos
 
-Treelogy is a simple versioning framework you might want to explore here:
+`Treelogy` is a simple versioning framework you might want to explore here:
 
 https://github.com/dkozar/treelogy
 
-* `Treelogy` is inspired by class inheritance in various programming languages
+* Treelogy is inspired by class inheritance in various programming languages
 * Uses a version tree to keep track of changes
 * Each version contains *atomic* parts called nodes
 * The node can contain any type of data and could be overridden in child version
